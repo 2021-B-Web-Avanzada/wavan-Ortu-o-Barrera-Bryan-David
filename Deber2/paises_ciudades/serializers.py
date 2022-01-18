@@ -1,12 +1,12 @@
 from rest_framework import serializers
 
-from paises_ciudades.models import Ciudad, Modelo
+from paises_ciudades.models import Ciudad, Pais
 
 
 class PaisSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Modelo
+        model = Pais
         fields = '__all__'
 
 
