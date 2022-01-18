@@ -1,1 +1,1 @@
-[{"nombre":"Ecuador","anio_fundacion":1965,"idioma":"Español","Presidente":"Guillermo Lazo","poblacion":4523665,"id":1,"ciudades":[{"nombre":"Quito","pais":1,"es_capital":true,"fundacion":1875,"poblacion":748569,"id":1}]}]
+[]

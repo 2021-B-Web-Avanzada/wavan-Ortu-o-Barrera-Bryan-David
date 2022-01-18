@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'paises_ciudades.apps.PaisesCiudadesConfig'
+    'paises_ciudades.apps.PaisesCiudadesConfig',
 ]
 
 MIDDLEWARE = [

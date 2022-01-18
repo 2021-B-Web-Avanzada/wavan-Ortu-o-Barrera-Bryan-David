@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class Modelo(models.Model):
+class Pais(models.Model):
     idioma = models.CharField(max_length=100)
     fundacion = models.DateField()
     presidente = models.CharField(max_length=100)
@@ -12,7 +12,7 @@ class Modelo(models.Model):
 
 
 class Ciudad(models.Model):
-    pais = models.ForeignKey(Modelo, on_delete=models.CASCADE)
+    pais = models.ForeignKey(Pais, on_delete=models.CASCADE)
     es_capital = models.BooleanField(default=False)
     fundacion = models.DateField()
     superficie = models.DecimalField(max_digits=20, decimal_places=2)
