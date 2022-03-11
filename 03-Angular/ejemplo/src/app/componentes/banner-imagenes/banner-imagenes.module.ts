@@ -4,12 +4,12 @@ import { BannerImagenesComponent } from './banner-imagenes/banner-imagenes.compo
 
 
 
-@NgModule({
+@NgModule({ //banner-imagenes.module.ts
   declarations: [
     BannerImagenesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     BannerImagenesComponent

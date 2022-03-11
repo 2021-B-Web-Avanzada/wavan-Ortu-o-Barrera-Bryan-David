@@ -1,7 +1,7 @@
-import {NgModule} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
-import {RutaBodegaComponent} from './rutas/ruta-bodega/ruta-bodega.component';
-import {RutaReporteComponent} from './rutas/ruta-reporte/ruta-reporte.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import {RutaBodegaComponent} from "./rutas/ruta-bodega/ruta-bodega.component";
+import {RutaReporteComponent} from "./rutas/ruta-reporte/ruta-reporte.component";
 
 const routes: Routes = [
   { // modulo-inventario-routing.module.ts
@@ -17,12 +17,10 @@ const routes: Routes = [
     redirectTo: 'bodega',
     pathMatch: 'full'
   },
-
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ModuloInventarioRoutingModule {
-}
+export class ModuloInventarioRoutingModule { }
